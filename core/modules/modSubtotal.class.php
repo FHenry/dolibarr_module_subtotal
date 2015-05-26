@@ -62,7 +62,7 @@ class modSubtotal extends DolibarrModules
         // (where XXX is value of numeric property 'numero' of module)
         $this->description = "Module permettant l'ajout de sous-totaux et sous-totaux intermédiaires et le déplacement d'une ligne aisée de l'un dans l'autre";
         // Possible values for version are: 'development', 'experimental' or version
-        $this->version = '1.4.6';
+        $this->version = '1.4.3';
         // Key used in llx_const table to save module status enabled/disabled
         // (where MYMODULE is value of property name of module in uppercase)
         $this->const_name = 'MAIN_MODULE_' . strtoupper($this->name);
@@ -125,13 +125,13 @@ class modSubtotal extends DolibarrModules
         // (key, 'chaine', value, desc, visible, 'current' or 'allentities', deleteonunactive)
         // Example:
         $this->const = array(
-            	0=>array(
-            		'SUBTOTAL_STYLE_TITRES_SI_LIGNES_CACHEES',
-            		'chaine',
-            		'I',
-            		'Définit le style (B : gras, I : Italique, U : Souligné) des sous titres lorsque le détail des lignes et des ensembles est caché',
-            		1
-            	)
+            //	0=>array(
+            //		'MYMODULE_MYNEWCONST1',
+            //		'chaine',
+            //		'myvalue',
+            //		'This is a constant to add',
+            //		1
+            //	),
             //	1=>array(
             //		'MYMODULE_MYNEWCONST2',
             //		'chaine',
